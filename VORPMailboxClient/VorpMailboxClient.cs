@@ -122,7 +122,7 @@ namespace VORPMailboxClient
             try
             {
                 if (message.Length == 0) return;
-                TriggerEvent("vorp:Tip", message, time);
+                TriggerEvent("vorp:TipRight", message, time);
             }
             catch (Exception e)
             {
